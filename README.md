@@ -14,9 +14,4 @@ So far only Cubic Bézier Curves in zwo dimensions are covered but I might add o
 Given a curve with points labeled as such:
 ![abb1.png](abb1.png)
 The formula is 
-L = 0.35 * |P_0 - P_1|
-+ 0.40 |P_0 - P_2|
-+ 0.23 |P_0 - P_3|
-- 0.09 |P_1 - P_2|
-+ 0.40 |P_1 - P_3|
-+ 0.35 * |P_2-P_3|
+L = 0.35 * |P_0 - P_1| + 0.40 * |P_0 - P_2| + 0.23 * |P_0 - P_3| - 0.09 * |P_1 - P_2| + 0.40 * |P_1 - P_3| + 0.35 * |P_2-P_3|
