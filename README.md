@@ -10,6 +10,11 @@ Jupyter notebooks that builds a formula to approximate the length of a Bézier C
 * [Jupyter notebook](https://www.studytonight.com/post/how-to-install-jupyter-notebook-without-anaconda-on-windows)
 * Python 3.12.7
 
+## Process
+1. Create Bézier curves from random points. Those curves look wild.
+2. Run linear regression with the distances of the points as x and the length as y. This made the formulae below.
+3. Test model on curves of my former design projects ([cookie cutters](https://github.com/benjaminwand/cookie-cutters)). Works fine / good prediction.
+
 ## Spoiler
 Given a curve with points labeled as such:
 ![abb1.png](abb1.png)
