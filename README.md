@@ -3,7 +3,7 @@
 ## Description
 Jupyter notebooks that builds a formulae to approximate the length of [Bézier curves](https://en.wikipedia.org/wiki/Bézier_curve) without calculating the curves. One file each for three, four and five control points, and two and three dimensions.
 
-I put most attention into four points and 2D. In this case I added a version in Decimal and with symmetrical fitting. Consider the other cases just drafts, the 3D models aren’t tested with real data.
+I put most attention into four points and 2D. In this case I added a version in Decimal and with symmetrical fitting. Consider the other cases just drafts, the 3D models aren’t tested with real data. I’ve tried fits with polynomials as well but that just lead to overfitting.
 
 The purpose of this is on the one hand submitting it as part of a paper for my university study and on the other hand optimizing 
 [my OpenSCAD Bézier Curve code](https://benjaminwand.github.io/verbose-cv/projects/bezier_curves.html). 
