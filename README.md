@@ -13,6 +13,7 @@ The purpose of this is on the one hand submitting it as part of a paper for my u
 ## Requirements
 * [Jupyter notebook](https://www.studytonight.com/post/how-to-install-jupyter-notebook-without-anaconda-on-windows)
 * Python 3.12.7
+* numpy, pandas, matplotlib, sklearn, mpl_toolkits (3d files), cvxpy (symmetrical file), decimal (decimal file)
 
 ## Process
 1. Create Bézier curves from random points. Those curves look wild.
